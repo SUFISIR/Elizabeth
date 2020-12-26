@@ -1,0 +1,166 @@
+{
+  "name": "Elizabeth_TgBot",
+  "description": "A Powerful Telegram Bot written in PTB and Telethon",
+  "logo": "https://telegra.ph/file/bd72857322159140bec6b.jpg",
+  "keywords": ["telegram-bot"],
+  "repository": "https://github.com/p-rinc-e/elizabeth.git",
+  "env": {
+    "TL_APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": "903274",
+      "required": true
+    },
+    "TL_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": "58e3e91b8a9addd2094a1d8096d270e1",
+      "required": true
+    },
+    "TOKEN": {
+      "description": "Get your bot token from @botfather",
+      "value": "1471445493:AAHWWUPJzrMq8aCII9uE1bdyFXI89xl8ox4",
+      "required": true
+    },
+    "SQLALCHEMY_DATABASE_URI": {
+      "description": "No need change",
+      "required": false,
+      "value": "sqldbtype://username:pw@hostname:port/db_name"
+    },
+    "ENV": {
+     "description": "Set this to ANYTHING..",
+     "value": "ANYTHING"
+    },
+    "API_OPENWEATHER": {
+      "description": "Get your own APPID from https://api.openweathermap.org/data/2.5/weather",
+      "value": "d8aacbcbb7f78512870366980ddf3dc6",
+      "required": false
+    },
+    "IBM_WATSON_CRED_URL": {
+      "description": "This is required for the speech to text module. Get your USERNAME from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
+      "required": false
+    },
+    "IBM_WATSON_CRED_PASSWORD": {
+      "description": "This is required for the speech to text module. Get your PASSWORD from https://console.bluemix.net/docs/services/speech-to-text/getting-started.html",
+      "required": false
+    },
+    "GBAN_LOGS": {
+      "description": "The group id for logging all gbans.. ⚠️ Remember:- You must add your bot to that group..",
+      "value": "-1001378180106",
+      "required": true
+    },
+    "DONATION_LINK": {
+      "description": "Enter Donation link..",
+      "required": false,
+      "value": "https://t.me/mentalSUFI"
+    },
+    "SUDO_USERS": {
+      "description": "List of user id's who will have SUDO rights in your bot(they can't be banned/warned etc. by the bot)",
+      "value": "1341953619",
+      "required": false
+    },
+    "SUPPORT_USERS": {
+      "description": "Support users Id's.",
+      "required": false,
+      "value": "1341953619"
+   },
+   "WHITELIST_USERS": {
+     "description": "Whitelist user Id's.",
+     "required": false,
+     "value": "1341953619"
+   },
+   "DEV_USERS": {
+     "description": "Developers id",
+     "required": false,
+     "value": "1341953619"
+   },
+   "WEBHOOK": {
+      "description": "Nothing here.",
+      "required": false,
+      "value": ""
+    },
+    "PORT": {
+      "description": "No need change.",
+      "required": false,
+      "value": ""
+    },
+    "YOUTUBE_API_KEY": {
+      "description": "Place your YouTube API Key here",
+      "value": "AIzaSyDJg4mtqPFYuJyO-cIfbH0RfcpmIuxC-SU",
+      "required": false
+    },
+    "OWNER_ID": {
+      "description": "An integer of consisting of your ID",
+      "value": "1341953619",
+      "required": true
+    },
+    "TEMP_DOWNLOAD_DIRECTORY": {
+      "description": "Do not edit this.",
+      "value": "./",
+      "required": false
+    },
+    "OWNER_USERNAME": {
+      "description": "Your username",
+      "value": "@mentalSUFI",
+      "required": true
+    },
+    "DEL_CMDS": {
+      "description": "Delete devs cmds from users",
+      "value": "False",
+      "required": false
+    },
+    "CUSTOM_CMD": {
+      "description": "Custom command handler..",
+      "required": false,
+      "value": ""
+    },
+    "URL": {
+      "description": "The Heroku App URL :- edit this to your app name https://your app name.herokuapp.com/",
+      "required": false,
+      "value": "https://elizabethtgbots.herokuapp.com/"
+    },
+    "MESSAGE_DUMP": {
+      "description": "A chat for logging bot events.. ⚠️ Remember :- You must add your bot to that group.. Otherwise telethon modules never works.. Eg songs etc💌",
+      "value": "-1001208863628",
+      "required": true
+    },
+    "TIME_API_KEY": {
+      "description": "Required for timezone information",
+      "value": "AIzaSyAyOhyLOInQKcIM4jEigkIutTSvq0OVzcc",
+      "required": false
+    },
+    "CASH_API_KEY": {
+      "description": "Required for currency converter",
+      "value": "32e0771ac8c9b8f35455",
+      "required": false
+    },
+    "WALL_API": {
+      "description": "Get one from https://wall.alphacoders.com/api.php",
+      "value": "378a0d649ec728a697cbf281dd266a01",
+      "required": false
+    },   
+    "ALLOW_EXCL": {
+      "description": "No need change",
+      "value": "True"
+    },
+    "STRICT_GBAN": {
+      "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned",
+      "value": "True",
+      "required": false
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }
+  ]
+}
