@@ -50,7 +50,7 @@ PM_START_TEXT = f"""
 Hey there! my name is *{dispatcher.bot.first_name}*.
 Any questions on how to use me? use /help
 
-Join Our [Group](https://t.me/Elizabeth_Support) If You wanna Report Issue 🙂
+Join Our [Group](https://t.me/joinchat/SA3LjI1lCHgGNrHu) If You wanna Report Issue 🙂
 
 I'm here to make your group management fun and easy!
 I have lots of handy features ☺️ such as :
