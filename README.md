@@ -1,8 +1,8 @@
 # ELIZABETH
 <p align="center">
-    <a href="https://github.com/p-rinc-e/Elizabeth/commits/master"><img src="https://img.shields.io/github/last-commit/p-rinc-e/Elizabeth/master?label=Last%20Commit&style=flat-square&logo=github&color=F10070" alt="Commit" /></a>
-    <a href="https://github.com/p-rinc-e/Elizabeth/stargazers"><img src="https://img.shields.io/github/stars/p-rinc-e/Elizabeth?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
-    <a href="https://github.com/p-rinc-e/Elizabeth/network/members"><img src="https://img.shields.io/github/forks/p-rinc-e/Elizabeth?label=Fork&style=flat-square&logo=github&color=F10070" alt="Fork" /></a>
+    <a href="https://github.com/SUFISIR/Elizabeth/commits/master"><img src="https://img.shields.io/github/last-commit/SUFISIR/Elizabeth/master?label=Last%20Commit&style=flat-square&logo=github&color=F10070" alt="Commit" /></a>
+    <a href="https://github.com/SUFISIR/Elizabeth/stargazers"><img src="https://img.shields.io/github/stars/SUFISIR/Elizabeth?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
+    <a href="https://github.com/SUFISIR/Elizabeth/network/members"><img src="https://img.shields.io/github/forks/SUFISIR/Elizabeth?label=Fork&style=flat-square&logo=github&color=F10070" alt="Fork" /></a>
 </p>
 
 ![logo](https://telegra.ph/file/bd72857322159140bec6b.jpg)
